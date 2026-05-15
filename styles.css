@@ -18,6 +18,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     max-width: 800px;
+    padding: 20px;
     }
 
     @media (max-width: 600px) {
@@ -36,17 +37,18 @@ h1 {
 
 };
 .box__text {
-    margin: 1px;
 }
 .box__text h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    margin-bottom: 0px;
+    margin: 0px;
 
 }
 
 .box__text p {
+    
     margin: 0px;
+    
     font-family: "Architects Daughter", cursive;
 
 }
