@@ -22,13 +22,14 @@ h1 {
 
     @media (max-width: 600px) {
   .box {
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
+
     }
   }
   
 .box__icon img {
      width: 200px;
+     justify-content: center;
      height: auto;
      margin-top: 10px;
      margin-bottom: 10px;
